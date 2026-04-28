@@ -21,12 +21,15 @@ Dependent variable: Y (Marks scored)
 4.Split the dataset into training and testing sets:
 X_train, X_test, Y_train, Y_test
 	​
+	
 5.Train the Linear Regression model using the equation: y = b0 + b1x
+
 Where:
+
 b1 (slope) = Σ(x − x̄)(y − ȳ) / Σ(x − x̄)²
 b0 (intercept) = ȳ − b1x̄
 
-6.Make predictions using: Y_pred = b0 + b1X_test
+6. Make predictions using: Y_pred = b0 + b1X_test
 
 7. Evaluate the model using:
 MSE = (1/n) Σ(Y_test − Y_pred)²
